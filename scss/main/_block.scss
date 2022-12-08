@@ -1,0 +1,30 @@
+.film-block {
+    width: 1200px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    background-image:linear-gradient(42deg, rgba(2,0,36,1) 0%, rgba(114,161,214,0.19091386554621848) 28%,
+    rgba(235,228,141,0.40940126050420167) 100%, rgba(0,212,255,1) 100%), url(../img/rayDonovan.img);
+}
+.sound-control {
+    height: 50px;
+    margin: 30px;
+    display: flex;
+    justify-content: flex-end;
+    &__icon {
+        width: 70px;
+        height: 70px;
+        border: 2px solid white;
+        border-radius: 50%;
+        background: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img {
+            width: 50px;
+        }
+    
+    }
+
+}
+
